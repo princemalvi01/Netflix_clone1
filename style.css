@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(images/background_image.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.66;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+}
+
+nav img {
+    color: #ff0303;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav .box {
+    background-color: white;
+}
+
+.int {
+    height: calc(100% - 62px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+    gap: 15px;
+    position: relative;
+    z-index: 10;
+    padding: 0 20px;
+}
+
+.int> :first-child {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.int> :nth-child(2) {
+    font-size: 24px;
+    text-align: center;
+}
+
+.int> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.divide {
+    height: 7px;
+    background-color: rgb(35, 35, 35);
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    padding: 7px 23px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red-sm {
+    padding: 7px 15px;
+    background-color: #ff0303;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red {
+    padding: 12px 30px;
+    background-color: #ff0303;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.main input {
+    padding: 12px 60px 12px 12px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.7;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.int .int-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.first {
+    display: flex;
+    height: 60vh;
+    max-width: 70vw;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    color: white;
+    
+
+}
+
+.secimg {
+    position: relative;
+    z-index: 10;
+}
+
+.secimg img {
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+
+.secimg video {
+    position: absolute;
+    top: 54px;
+    right: 20px;
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.feq {
+    height: 80vh;
+}
+
+.feq h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 34px;
+    padding-bottom: 12px;
+    color: white;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.feq .feqbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin: 9px auto;
+    background-color: rgb(35, 35, 35);
+
+    max-width: 60vw;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    cursor: pointer;
+}
+
+.feqbox>span {
+    font-size: 25px;
+}
+
+.feqbox svg {
+
+    color: white;
+
+}
+
+.feqbox:hover {
+    background-color: rgb(65, 65, 65);
+    transition-duration: 500ms;
+}
+
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+    height: 30vh;
+}
+footer .que{
+    font-family: "Noto Sans", sans-serif;
+    padding: 10px 10px;
+    padding: 30px 0px;
+}
+.footers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footers a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
